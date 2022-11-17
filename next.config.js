@@ -19,7 +19,6 @@ const nextConfig = {
     return compilerConfig
   })(),
   async rewrites() {
-    // Nextのエンドポイントにリクエストを送信するとjson-serverのエンドポイントに変換されてリクエストが送信される
     return [
       {
         // ex. /api/proxy
